@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-toggler {
+    border: 0px solid black !important;
+}
+
+.nav-item-mobile {
+    border-bottom: #d3d3d3 solid 1px !important;
+}
+
+.modal-bg {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.active {
+    color: white !important;
+    font-size: 24px !important;
+}
+
+.navbar-bg {
+    background-color: #161a1d;
+}
+
+.nav-link:hover {
+    color: #d3d3d3 !important;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-family: 'Limelight', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    transition: 1s;
+}
+
+
+.menu-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-family: "Poppins" , sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    transition: 1s;
+}
+
+
+#hero-section {
+    height: 300px;
+    background-image: url(./media/bg-cinema.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: center;
+    
+}
+
+h1 {
+    color: white;
+    font-family: 'Limelight', cursive;
+    font-size: 5rem;
+    font-weight: 400;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.logo:hover {
+    color: #d3d3d3;
+}
+
+.card {
+    height: 100%;
+    border: none;
+    max-width: 400px;
+    
+}
+
+
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+
+#form-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+button {
+    background-color: #161a1d;
+}
+
+.footer {
+    background-color: #161a1d;
+
+}
+
+.social-nav {
+    list-style: none;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    
+    h1 {
+        font-size: 3rem;
+    }
+    
+    #hero-section {
+        height: 200px;
+    }
+}
+
+
